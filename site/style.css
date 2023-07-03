@@ -1,3 +1,8 @@
+
+.products-and-price  h2 {
+	text-transform: uppercase;
+	font-family: Arial, sans-serif;
+}
 /* table start */
 
 .price-list {
@@ -30,7 +35,7 @@ border-bottom: 1px solid #bbbbbb;
 	
 }
 
-.price-list td:first-child {
+.price-list .price-name {
 	padding-left: 0;
 	color: #000000;
 }
@@ -39,15 +44,15 @@ border-bottom: 1px solid #bbbbbb;
 	padding-left: 0;
 }
 
-.price-list th:last-child, 
-.price-list td:last-child {
+.price-list .price,
+.price-list th:last-child {
 	padding-right: 0;
 	text-align: right;
 }
 
 .price-list .new {
 	padding: 2px 4px;
-	vertical-align: sup;
+	vertical-align: top;
 	text-align: top;
 	font-size: 6px;
 	color: #ffffff;

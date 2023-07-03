@@ -60,3 +60,10 @@ border-bottom: 1px solid #bbbbbb;
 }
 
 /* table end */
+
+/* order-form start */
+.order-form-group {
+	padding: 10px 0;
+}
+
+/* order-form end */

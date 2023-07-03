@@ -125,18 +125,48 @@
 </table>
 </div>
 
-Заказать
-Не ждите пока нас отрекламируют, как Вятский квас, и мы поднимем цены! Закажите настоящий крафтовый квас сейчас. При заказе от 10 баррелей - скидка 10%.
-Представьтесь:
-Номер телефона:
-Доп.номер:
-email:
-Объём заказа:
-От 5 до 10 баррелей в неделю
-Доп. комментарий:
+<div class="order-info">
+<h2>Заказать</h2>
+<p class="order-tip">Не ждите пока нас отрекламируют, как Вятский квас, и мы поднимем цены! Закажите настоящий крафтовый квас сейчас. При заказе от 10 баррелей - скидка 10%.</p>
+<form class="order-form" action="/keksby-mail" method="post">
+<div class="order-form-group">
+<label for="fullname">Представьтесь:</label>
+<input type="text" name="fullname" id="fullname">
+</div>
+<div class="order-form-group">
+<label for="phone">Номер телефона:</label>
+<input type="text" name="phone" id="phone">
+</div>
+<div class="order-form-group">
+<label for="phone2">Доп.номер:</label>
+<input type="text" name="phone2" id="phone2">
+</div>
+<div class="order-form-group">
+<label>email:</label>
+<input type="text" name="mail" id="mail">
+</div>
+<div class="order-form-group">
+<label for="order-value">Объём заказа:</label>
+<select name="order-value" id="order-value">
+<option value="1">От 5 до 10 баррелей в неделю</option>
+<option value="2">От 10 до 50 баррелей в неделю</option>
+<option value="3">Больше 50 баррелей в неделю</option>
+</select>
+</div>
+<div class="order-form-group">
+<label for="message">Доп. комментарий:</label>
+<textarea type="text" name="message" id="message"> 
+</textarea>
+</div>
+<div class="checkbox-area">
+<label>
+<input type="checkbox" name="subscription">
 Я согласен получать квасную рассылку
-Отправить заказ
-
+</label>
+</div>
+<input class="btn" type="submit" value="Отправить заказ">
+</form>
+</div>
 
 
 <div class="page-footer">

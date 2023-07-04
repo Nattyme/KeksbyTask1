@@ -31,16 +31,42 @@ color: #ffffff;
 }
 
 .btn:hover {
-	color: #8d745a;
+	text-decoration: underline;
 }
 
 .btn:active {
 	color: rgba(141, 116, 90, 0.3);
 }
+
+.header-promo {
+	text-align: center;
+	font-size: 50px;
+	font-weight: bold;
+	font-family: Arial, sans-serif;
+}
 /* header end */
 
 /* catalog */
+.new-products h2, 
+.new-items h3 {
+	font-family: Arial, sans-serif;
+	text-transform: uppercase;
+}
+.new-product-value {
+	width: 140px;
+	border-collapse: collapse;
+}
 
+
+.new-items td {
+	padding: 5px 10px;
+	text-align: left;
+	vertical-align: middle;
+	text-transform: uppercase;
+	border: 1px solid #bbbbbb;
+	color: #000000;
+	font-weight: bold;
+}
 
 /* end */
 

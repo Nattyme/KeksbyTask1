@@ -1,7 +1,29 @@
 /*header start */
+.page-header {
+background-color: #bb7733;
+color: #ffffff;
+}
+
 .main-nav {
 	text-transform: uppercase;
+	border-top: 1px solid #bbbbbb;
+	border-bottom: 1px solid #bbbbbb;
+	list-style: none;
 }
+
+.main-nav a {
+text-decoration: none;
+color: #ffffff;
+}
+
+.main-nav a:hover {
+	text-decoration: underline;
+}
+
+.main-nav a:active {
+	color: rgba(255, 255, 255, 0.3);
+}
+
 /* header end */
 
 /* catalog */

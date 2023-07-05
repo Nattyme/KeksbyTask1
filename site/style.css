@@ -1,6 +1,6 @@
 /*header start */
 .page-header {
-background-color: RGB(237,171,85);
+background-color: #ffd180;
 color: #ffffff;
 }
 
@@ -49,14 +49,22 @@ color: #ffffff;
 text-transform: uppercase;
 font-family: "Arial", sans-serif;
 font-weight: bold;	
+color: #000000;
 }
 /* header end */
 
 /* new product */
+.catalog-item p {
+	font-size: 14px;
+	font-family: "Arial", sans-serif;
+	font-weight: bold;
+	color: #666666;
+}
 
 .new-product-value {
 	width: 140px;
 	border-collapse: collapse;
+	
 }
 
 
@@ -75,7 +83,7 @@ font-weight: bold;
 /* features start*/
 .features {
 	text-align: left;
-	background-color: RGB(237,171,85);
+	background-color: #ffd180;
 }
 .features ul {
 	list-style: none;
@@ -88,6 +96,10 @@ font-weight: bold;
 
 .feature-item:last-child {
 	border-right: none;
+}
+
+.feature-item p {
+	color: #666666;
 }
 /* features end*/
 
@@ -133,12 +145,17 @@ font-weight: bold;
 
 /* reviews start */
 .reviews {
-	background-color: #dbd7d2;
+	background-color: rgb(238,224,224,0.5)
 }
-.reviews cite {
+
+.review-item {
+		font-style: "Arial", sans-serif;
+}
+.review-author {
 	text-transform: uppercase;
-	font-family: "Arial", sans-serif;
-}
+	font-style: normal;
+	font-weight: bold;
+ }
 /* reviews end */
 
 /* table start */
@@ -202,12 +219,17 @@ border-bottom: 1px solid #bbbbbb;
 
 /* order-form start */
 .order-info {
-	background-color: RGB(237,171,85);
+	font-family: "Arial", sans-serif;
+	background-color: #ffd180;
+	color: #666666;
 }
 
 
 .order-form-group {
 	padding: 10px 0;
+	text-transform: uppercase;
+	font-weight: bold;
+	color: #000000;
 }
 
 
@@ -216,22 +238,23 @@ border-bottom: 1px solid #bbbbbb;
 
 /* footer*/
 .page-footer {
+	font-family: Arial, sans-serif;
 	background-color: #000000;
-	color: white;
+	color: #808080;
 }
 
 .page-footer .footer-menu li{
+	font-weight: bold;
 	list-style: none;
 }
 
 .footer-menu a {
 		text-decoration: none;
-		font-family: Arial, sans-serif;
 	    text-transform: uppercase;
 		color: white;
 }
 
 .footer-copyright a {
 text-decoration: none;
-color: white;
+color: #808080;
 }

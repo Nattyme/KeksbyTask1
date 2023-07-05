@@ -45,7 +45,7 @@ color: #ffffff;
 	font-family: Arial, sans-serif;
 }
 
-.feature-title {
+.section-title {
 text-transform: uppercase;
 font-family: "Arial", sans-serif;
 font-weight: bold;	
@@ -92,7 +92,43 @@ font-weight: bold;
 /* features end*/
 
 /* history block start */
+.kvas-reference {
+	color: #666666;
+}
+.kvas-reference img {
+	border-radius: 5px;
+	
+}
 
+.reference-title {
+	font-size: 16px;
+	font-weight: bold;
+	text-transform: uppercase;
+	color: #000000;
+}
+
+.reference-source {
+	font-size: 12px;
+	font-family: "Arial", sans-serif;
+	line-height: 10px;
+	text-transform: none;
+	font-style: italic;
+	font-weight: normal;
+	color: #666666;
+	
+}
+
+.reference-source a {
+	color:  #a38b70;
+}
+
+.reference-source a:hover {
+	color: #8d745a;
+}
+
+.reference-source a:active {
+	color: rgba(141, 116, 90, 0.3);
+}
 /* history block end */
 
 /* reviews start */

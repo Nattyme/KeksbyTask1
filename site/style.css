@@ -44,14 +44,16 @@ color: #ffffff;
 	font-weight: bold;
 	font-family: Arial, sans-serif;
 }
+
+.feature-title {
+text-transform: uppercase;
+font-family: "Arial", sans-serif;
+font-weight: bold;	
+}
 /* header end */
 
 /* new product */
-.new-products h2, 
-.new-items h3 {
-	font-family: Arial, sans-serif;
-	text-transform: uppercase;
-}
+
 .new-product-value {
 	width: 140px;
 	border-collapse: collapse;
@@ -72,46 +74,37 @@ color: #ffffff;
 
 /* features start*/
 .features {
+	text-align: left;
 	background-color: RGB(237,171,85);
 }
 .features ul {
 	list-style: none;
 }
 
-.features  h2 {
-	text-align: left;
-	text-transform: uppercase;
-	font-family: "Arial", sans-serif;
+
+.feature-item {
+	border-right: 1px solid #d9d9d9;
 }
 
-.features ul li p {
-	text-align: left;
-	color:  #bbbbbb;
-	font-family: "Arial", sans-serif;
+.feature-item:last-child {
+	border-right: none;
 }
 /* features end*/
 
 /* history block start */
-.kvas-reference h2 {
-	text-transform: uppercase;
-	font-family: "Arial", sans-serif;
-}
+
 /* history block end */
 
 /* reviews start */
 .reviews {
 	background-color: #dbd7d2;
 }
-.reviews h2, cite {
+.reviews cite {
 	text-transform: uppercase;
 	font-family: "Arial", sans-serif;
 }
 /* reviews end */
 
-.products-and-price  h2 {
-	text-transform: uppercase;
-	font-family: Arial, sans-serif;
-}
 /* table start */
 
 .price-list {
@@ -175,11 +168,7 @@ border-bottom: 1px solid #bbbbbb;
 .order-info {
 	background-color: RGB(237,171,85);
 }
-.order-info h2, label {
-	font-family: Arial, sans-serif;
-	text-transform: uppercase;
-	font-weight: bold;
-}
+
 
 .order-form-group {
 	padding: 10px 0;

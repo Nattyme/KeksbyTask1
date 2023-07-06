@@ -47,6 +47,7 @@ color: #ffffff;
 	list-style: none;
 }
 
+.
 .main-nav a {
 text-decoration: none;
 color: #ffffff;
@@ -126,11 +127,12 @@ color: #000000;
 
 .catalog-item {
 	float: left;
+	margin-right: 48px;
 	width: 308px;
 }
 
 .catalog-item:last-child {
-	margin-right: 0;
+	float: right;
 }
 
 .catalog-item img {
@@ -160,7 +162,9 @@ color: #000000;
 	padding-top: 90px;
 	padding-right: 30px;
 	padding-left: 30px;
-	text-align: center;
+	font-size:  16px;
+	line-height: 24px;
+	text-align: left;
 	border-right: 1px solid #d9d9d9;
 }
 
@@ -185,6 +189,7 @@ color: #000000;
 
 .kvas-reference dl {
 	width: 830px;
+	
 }
 
 .kvas-reference dt {

@@ -314,6 +314,8 @@ border-bottom: 1px solid #bbbbbb;
 
 /* order-form start */
 .order-info {
+	padding-top: 70px;
+	padding-bottom: 90px;
 	font-family: "Arial", sans-serif;
 	background-color: #ffd180;
 	color: #666666;
@@ -323,25 +325,29 @@ border-bottom: 1px solid #bbbbbb;
 	padding: 10px 0;
 }
 
-	.order-form-group label {
+.order-form {
+	width: 630px;
+}
+
+.order-form-group label {
 	font-size: 12px;
 	text-transform: uppercase;
 	font-weight: bold;
 	color: #000000;
 	}
 	
-	.order-form-group input[type="text"],
-	.order-form-group select,
-	.order-form-group textarea {
+.order-form-group input[type="text"],
+.order-form-group select,
+.order-form-group textarea {
 		font: inherit;
 		color: inherit;
 		border: 1px solid #ffd180;
 		background-color: #f2ce8d;
 	}
 	
-	.order-form-group input[type="text"]:hover,
-	.order-form-group select:hover,
-	.order-form-group textarea:hover {
+.order-form-group input[type="text"]:hover,
+.order-form-group select:hover,
+.order-form-group textarea:hover {
 		border-color: #bebebe;
 	}
 
@@ -358,7 +364,8 @@ border-bottom: 1px solid #bbbbbb;
 
 /* footer*/
 .page-footer {
-	padding: 0;
+	padding-top: 45px;
+	padding-bottom: 50px;
 	font-family: Arial, sans-serif;
 	background-color: #000000;
 	color: #808080;

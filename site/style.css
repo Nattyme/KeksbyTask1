@@ -93,6 +93,11 @@ color: #000000;
 /* header end */
 
 /* new product */
+.new-products {
+	padding-top: 70px;
+	padding-bottom: 90px;
+}
+
 .catalog-item p {
 	font-size: 14px;
 	font-family: "Arial", sans-serif;
@@ -103,9 +108,11 @@ color: #000000;
 .new-product-value {
 	width: 140px;
 	border-collapse: collapse;
-	
 }
 
+.new-items {
+	padding-bottom: 50px;
+}
 
 .new-items td {
 	padding: 5px 10px;
@@ -115,6 +122,20 @@ color: #000000;
 	border: 1px solid #bbbbbb;
 	color: #000000;
 	font-weight: bold;
+}
+
+.catalog-item {
+	float: left;
+	width: 308px;
+}
+
+.catalog-item:last-child {
+	margin-right: 0;
+}
+
+.catalog-item img {
+	width: 100%;
+	height: auto;
 }
 
 /* new product end */
@@ -208,11 +229,21 @@ color: #000000;
 
 /* reviews start */
 .reviews {
+	padding-top: 70px;
+	padding-bottom: 90px;
 	background-color: rgb(238,224,224,0.5)
 }
 
 .review-item {
-		font-style: "Arial", sans-serif;
+	width: 630px;
+	text-align: left;
+	margin: 0;
+	padding: 0;
+	padding-right: 50px;
+	margin-right: 80px;
+	font-size: 16px;
+	line-height: 24px;
+	font-style: "Arial", sans-serif;
 }
 .review-author {
 	text-transform: uppercase;

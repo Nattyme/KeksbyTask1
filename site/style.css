@@ -154,11 +154,25 @@ color: #000000;
 
 /* history block start */
 .kvas-reference {
+	padding-top: 70px;
+	padding-bottom: 90px;
 	color: #666666;
 }
 .kvas-reference img {
 	border-radius: 5px;
-	
+}
+
+.kvas-reference dl {
+	width: 830px;
+}
+
+.kvas-reference dt {
+	margin: 0;
+	margin-bottom: 10px;
+}
+
+.theory-container:first-child {
+	margin-bottom: 70px;
 }
 
 .reference-title {

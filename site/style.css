@@ -1,17 +1,18 @@
 /*header start */
 
 body {
+	min-width: 1040px;
 	margin: 0;
 	padding: 0;
-	min-width: 1040px;
+	font-size: 16px;
+	line-height: 24px;
+	font-family: "Arial", sans-serif;
+	text-transform: uppercase;
+	font-weight: bold;
+	color: #ffffff;
+	
 }
-.page-header {
-padding: 0;
-padding-top: 35px;
-max-height: 490px;
-background-color: #8a3324;
-color: #ffffff;
-}
+
 
 .container {
 	width: 1020px;
@@ -24,10 +25,24 @@ color: #ffffff;
 	clear: both;
 }
 
+.page-header {
+	min-height: 490px;
+	padding-top: 35px;
+	background: url("img/back-image.png")no-repeat 50% 50%;
+	background-size:  cover;
+	background-color: #8a3324;
+	color: #ffffff;
+}
+
 .header-logo {
 	float: left;
 	width: 205px;
 	height: 55px;
+}
+
+.header-logo img {
+	width: 140;
+	height: 76;
 }
 
 .header-top {

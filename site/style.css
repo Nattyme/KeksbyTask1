@@ -26,7 +26,7 @@ body {
 }
 
 .section-title {
-font-size: 26px;
+font-size: 23px;
 text-transform: uppercase;
 font-family: "Arial", sans-serif;
 font-weight: bold;	
@@ -164,6 +164,7 @@ color: #000000;
 .new-products h2 {
 	margin: 0;
 	padding: 0;
+	font-size: 28px;
 }
 
 .catalog-item {
@@ -254,18 +255,46 @@ color: #000000;
 
 .feature-item {
 	float: left;
-	width: 279px;
-	padding-top: 90px;
-	padding-right: 30px;
-	padding-left: 30px;
-	font-size:  16px;
+	position: relative;
+	width: 270px;
+	padding-top: 80px;
+	padding-left: 100px;
+	font-size:  14px;
+	text-transform: none;
+	font-weight: normal;
 	line-height: 24px;
 	text-align: left;
 	border-right: 1px solid #d9d9d9;
 }
 
-.feature-item:last-child {
-	border-right-color: transparent;
+.feature-item:first-child {
+	padding-left: 0;
+}
+
+.feature-item::before {
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 100px;
+	width: 70px;
+	height: 72px;
+	background: url("img/spritesheet.png") top center no-repeat;
+}
+
+.feature-item:first-child::before {
+	left: 0;
+}
+
+.feature-handmade::before {
+	background-position: -8px -252px;
+}
+
+.feature-homemade::before {
+	background-position: -8px -455px;
+}
+
+.feature-noteconomy::before {
+	background-position: -15px -360px;
 }
 
 .feature-item p {

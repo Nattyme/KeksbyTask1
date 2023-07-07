@@ -9,7 +9,8 @@ body {
 	font-family: "Arial", sans-serif;
 	text-transform: uppercase;
 	font-weight: bold;
-	color: #ffffff;
+	color: #000000;
+	background-color: #ffffff;
 	
 }
 
@@ -28,16 +29,26 @@ body {
 .page-header {
 	min-height: 490px;
 	padding-top: 35px;
-	background: url("img/back-image.png")no-repeat 50% 50%;
+	background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("img/back-image.png") no-repeat center;
 	background-size:  cover;
-	background-color: #8a3324;
+}
+
+
+.page-header,
+.page-footer {
 	color: #ffffff;
+	background-color: #000000;
+}
+
+
+.header-top {
+	margin-bottom: 125px;
 }
 
 .header-logo {
 	float: left;
-	width: 205px;
-	height: 55px;
+	width: 140px;
+	height: 76px;
 }
 
 .header-logo img {
@@ -45,26 +56,29 @@ body {
 	height: 76;
 }
 
-.header-top {
-	margin-bottom: 125px;
-}
-
-
 .main-nav {
-	margin: 0;
-	padding: 0;
-	margin-left: 125px;
 	float: left;
-	width: 520px;
-	text-transform: uppercase;
-	border-top: 1px solid #bbbbbb;
-	border-bottom: 1px solid #bbbbbb;
+	margin: 0;
+	margin-left: 125px;
+	padding: 20px 0;
+	width: 605px;
+	border-top: 1px solid rgba(255,255,255,0.3);
+	border-bottom: 1px solid rgba(255,255,255,0.3);
 	list-style: none;
 }
 
+.main-nav li {
+	float: left;
+	margin-right: 55px;
+}
+
+.main-nav li:last-child {
+	margin-right: 0;
+}
+
 .main-nav a {
-text-decoration: none;
 color: #ffffff;
+text-decoration: none;
 }
 
 .main-nav a:hover {

@@ -94,18 +94,38 @@ text-decoration: none;
 }
 
 .btn {
-	text-decoration: none;
+	display: inline-block;
+	padding: 20px 20px;
+	color: #a8a8a8;
+	background: #f0f0f0;
 	text-transform: uppercase;
-	color: #a47844;
+	text-decoration: none;
 }
 
-.btn:hover {
-	text-decoration: underline;
-	color: #744611;
+.btn-ghost {
+	color: #834700;
+	background: #ffffff;
 }
 
-.btn:active {
-	color: #d8cbbc;
+.btn-ghost:hover {
+	color: #6a3900;
+}
+
+.btn-ghost:active {
+	color: #d2c3b2;
+}
+
+.btn-brown {
+	background: #000000;
+}
+
+.btn-brown:hover {
+	color: #ffffff;
+	background: #000000;
+}
+
+.btn-brown:active {
+	color: rgba(255,255,255, 0.3);
 }
 
 .header-promo {
@@ -267,7 +287,7 @@ color: #000000;
 .reviews {
 	padding-top: 70px;
 	padding-bottom: 90px;
-	background-color: rgb(238,224,224,0.5)
+	background-color: #eaeaea;
 }
 
 .review-item {

@@ -83,11 +83,14 @@ text-decoration: none;
 
 .main-nav a:hover {
 	color: #f1bb6a;
-	border-bottom-color: #ffffff;
+	padding-bottom: 25px;
+	border-bottom: 1px solid #ffffff;
 }
 
 .main-nav a:active {
 	color: #c88a31;
+	padding-bottom: 25px;
+	border-bottom: 1px solid #ffffff;
 }
 
 .btn {

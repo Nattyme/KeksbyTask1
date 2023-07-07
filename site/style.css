@@ -184,10 +184,18 @@ color: #000000;
 }
 
 .catalog-item p {
-	margin-left: 37px;
 	width: 330px;
 	height: 75px;
 	font-size: 16px;
+	line-height: 24px;
+	font-family: "Arial", sans-serif;
+	font-weight: normal;
+	text-transform: none;
+	color: #666666;
+}
+
+.catalog-item .new-product-decription {
+	margin-left: 37px;
 	line-height: 24px;
 	font-family: "Arial", sans-serif;
 	font-weight: normal;

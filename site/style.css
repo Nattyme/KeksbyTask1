@@ -171,6 +171,11 @@ color: #000000;
 	position: relative;
 	width: 400px;
 	height: 750px;
+	border-left: 2px solid #e5e5e5;
+}
+
+.catalog-item:last-child {
+	border-right: 2px solid #e5e5e5;
 }
 
 .catalog-item .section-title {
@@ -184,6 +189,7 @@ color: #000000;
 }
 
 .catalog-item p {
+	margin-left: 37px;
 	width: 330px;
 	height: 75px;
 	font-size: 16px;
@@ -194,17 +200,10 @@ color: #000000;
 	color: #666666;
 }
 
-.catalog-item .new-product-decription {
-	margin-left: 37px;
-	line-height: 24px;
-	font-family: "Arial", sans-serif;
-	font-weight: normal;
-	text-transform: none;
-	color: #666666;
-}
 
 .catalog-item .new-product-structure {
 	padding: 0;
+	margin-left: 0;
 	position: absolute;
 	top: 185px;
 	left: 222px;

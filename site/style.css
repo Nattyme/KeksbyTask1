@@ -1,5 +1,4 @@
 /*header start */
-
 body {
 	min-width: 1040px;
 	margin: 0;
@@ -27,9 +26,6 @@ body {
 
 .section-title {
 font-size: 23px;
-text-transform: uppercase;
-font-family: "Arial", sans-serif;
-font-weight: bold;	
 color: #000000;
 }
 
@@ -143,10 +139,8 @@ color: #000000;
 }
 
 .header-promo {
-	font-weight: bold;
 	font-size: 45px;
 	line-height: 55px;
-	font-family: "Arial", sans-serif;
 	text-align: center;
 }
 /* header end */
@@ -194,8 +188,6 @@ color: #000000;
 	width: 330px;
 	height: 75px;
 	font-size: 16px;
-	line-height: 24px;
-	font-family: "Arial", sans-serif;
 	font-weight: normal;
 	text-transform: none;
 	color: #666666;
@@ -234,7 +226,6 @@ color: #000000;
 	text-transform: uppercase;
 	border: 1px solid #bbbbbb;
 	color: #000000;
-	font-weight: bold;
 }
 
 /* new product end */
@@ -262,7 +253,6 @@ color: #000000;
 	font-size:  14px;
 	text-transform: none;
 	font-weight: normal;
-	line-height: 24px;
 	text-align: left;
 	border-right: 1px solid #d9d9d9;
 }
@@ -483,13 +473,17 @@ border-bottom: 1px solid #bbbbbb;
 .order-info {
 	padding-top: 70px;
 	padding-bottom: 90px;
-	font-family: "Arial", sans-serif;
-	background-color: #ffd180;
+	background-color: #eaeaea;
 	color: #666666;
 }
 
 .order-form-group {
 	padding: 10px 0;
+}
+
+.order-tip {
+	text-transform: none;
+	font-weight: normal;
 }
 
 .order-form {
@@ -506,22 +500,23 @@ border-bottom: 1px solid #bbbbbb;
 .order-form-group input[type="text"],
 .order-form-group select,
 .order-form-group textarea {
-		font: inherit;
-		color: inherit;
-		border: 1px solid #ffd180;
-		background-color: #f2ce8d;
+	font: inherit;
+	color: inherit;
+	border: 1px solid transparent;
+	background-color: #ededed;
 	}
 	
 .order-form-group input[type="text"]:hover,
 .order-form-group select:hover,
 .order-form-group textarea:hover {
-		border-color: #bebebe;
+	border-color: #bebebe;
 	}
 
 .order-form-group input[type="text"]:focus,
 .order-form-group select:focus,
 .order-form-group textarea:focus {
-		border-color: #8d745a;
+	border: none;
+	background-color: #ffffff;
 	}
 
 
@@ -539,9 +534,9 @@ border-bottom: 1px solid #bbbbbb;
 }
 
 .footer-logo {
-float: left;
-width: 205px;
-height: 55px;
+	float: left;
+	width: 205px;
+	height: 55px;
 }
 
 .page-footer .footer-menu li{
@@ -570,9 +565,9 @@ height: 55px;
 }
 
 .footer-menu a {
-		text-decoration: none;
-	    text-transform: uppercase;
-		color: #ffffff;
+	text-decoration: none;
+	text-transform: uppercase;
+	color: #ffffff;
 }
 
 .footer-menu a:hover {
@@ -586,9 +581,39 @@ height: 55px;
 .footer-social {
 	float: left;
 	width: 250px;
+	font-size: 0;
 }
 .social-btn {
+	width: 60px;
+	height: 60px;
+	display: inline-block;
+	vertical-align: middle;
 	color: #ffffff;
+	border: 1px solid rgba(61,55,48,0.1);
+	background-image: url("img/spritesheet.png");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-color: #71737a;
+}
+
+.social-btn:hover {
+	border: 1px solid #9c8e79;
+}
+
+.socail-btn:active {
+	background-color: rgba(44,45,47, 0.9);
+}
+
+.btn-inst {
+	background-position: 5px 0;
+}
+
+.btn-fb {
+	background-position: 5px -105px;
+}
+
+.btn-vk {
+background-position: 0px -50px;	
 }
 
 .footer-alert {

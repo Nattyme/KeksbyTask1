@@ -93,7 +93,6 @@ body {
 
 .main-nav a:hover {
 	color: #f1bb6a;
-	padding-bottom: 25px;
 	border-bottom: 1px solid #ffffff;
 }
 
@@ -155,62 +154,31 @@ body {
 
 /* new product */
 .new-products {
-	padding-top: 93px;
-	padding-bottom: 100px;
+	margin-top: 80px;
 }
 
-.new-products {
-	padding-left: 137px;
-}
 
-.new-products h2 {
+.section-title {
 	margin: 0;
 	padding: 0;
-	font-size: 28px;
+	min-height: 50px;
 }
 
 .catalog-item {
 	float: left;
 	position: relative;
-	width: 400px;
+	width: 398px;
 	height: 750px;
-	border-left: 2px solid #e5e5e5;
+	border-left: 1px solid #e5e5e5;
 }
 
 .catalog-item:last-child {
-	border-right: 2px solid #e5e5e5;
-}
-
-.catalog-item .section-title {
-	padding-left: 37px;
+	border-right: 1px solid #e5e5e5;
 }
 
 .catalog-item img {
 	width: 318px;
 	height: 455px;
-	margin-left: 45px;
-}
-
-.catalog-item p {
-	margin-left: 37px;
-	width: 330px;
-	height: 75px;
-	font-size: 16px;
-	font-weight: normal;
-	text-transform: none;
-	color: #666666;
-}
-
-
-.catalog-item {
-	padding: 0;
-	margin-left: 0;
-	position: absolute;
-	top: 185px;
-	left: 222px;
-	width: 135px;
-	height: 45px;
-	font-size: 12px;
 }
 
 .new-product-value {
@@ -224,7 +192,6 @@ body {
 
 .new-items {
 	height: 750px;
-	padding-left: 110px;
 }
 
 .new-items td {

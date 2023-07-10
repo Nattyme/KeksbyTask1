@@ -340,13 +340,12 @@ background-color: #ffffff;
 }
 
 .kvas-reference .ref-title {
-margin: 0;
-margin-bottom: 10px;
-font-weight: bold;
-font-size: 40px;
-line-height: 60px;
-color: #000000;
-
+	margin: 0;
+	margin-bottom: 10px;
+	font-weight: bold;
+	font-size: 40px;
+	line-height: 60px;
+	color: #000000;
 }
 
 .reference-list {
@@ -356,12 +355,11 @@ color: #000000;
 }
 
 .reference-title {
-margin-top: 60px;
-margin-bottom: 20px;
-
-font-size: 20px;
-font-weight: bold;
-color: #000000;
+	margin-top: 60px;
+	margin-bottom: 20px;
+	font-size: 20px;
+	font-weight: bold;
+	color: #000000;
 }
 
 
@@ -425,7 +423,7 @@ color: #000000;
 	width: 41px;
 	height: 31px;
 	background: url("img/spritesheet.png") top center no-repeat;
-	background-position: -20px -565px;
+	background-position: -20px -568px;
 }
 
 .review-item p {
@@ -461,63 +459,64 @@ color: #000000;
 /* reviews end */
 
 /* table start */
+.products-and-price {
+	padding-top: 90px;
+	padding-bottom: 90px;
+}
+
 
 .price-list {
 	width: 100%;
 	border-collapse: collapse;
-	line-height: 30px;
 }
 
 .price-list td {
-border-top: 1px solid #bbbbbb;
-border-bottom: 1px solid #bbbbbb;
-}
-
-
-.price-list th, 
-.price-list td {
-	text-align: left;
-	padding: 20px 15px;
-	font-family: Arial, sans-serif;
-	font-weight: bold;
-	color: #7d7e81;
-	text-transform: uppercase;
-	
+padding: 17px 0;
 }
 
 .price-list th {
-	padding-top: 0;
-	padding-bottom: 40px;
-	font-size: 12px;
-	color: #9c9f9d;
+	padding-bottom: 30px;
+	font-weight: normal;
+	font-size: 11px;
+	text-align: left;
+	color: #999999;
 	
 }
 
-.price-list .price-name {
-	padding-left: 0;
-	text-align: top;
+.price-list th, 
+.price-list td {
+	border-bottom: 1px solid #e5e5e5;
+}
+
+
+.price-name {
+	width: 400px;
+	font-weight: bold;
 	color: #000000;
+	text-transform: uppercase;
 }
 
-.price-list th:first-child {
-	padding-left: 0;
+.price-alcohol {
+	width: 90px;
 }
 
-.price-list .price,
-.price-list th:last-child {
-	padding-right: 0;
-	text-align: right;
+.price-caloricity {
+	width: 60px;
 }
 
 .price-name .new {
-	padding: 2px 4px;
-	vertical-align: sup;
-	text-align: top;
-	font-size: 10px;
+	margin-left: 20px;
+	padding: 2px 5px;
+	font-size: 8px;
+	line-height: 30px;
 	color: #ffffff;
 	background-color: #000000;
+	border-radius: 2px;
 }
 
+.price-list .price-cost {
+	text-align: right;
+}
 /* table end */
 
 /* order-form start */

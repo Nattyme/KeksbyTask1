@@ -334,61 +334,44 @@ background-color: #ffffff;
 
 /* history block start */
 .kvas-reference {
-	padding-top: 70px;
-	padding-bottom: 90px;
-	color: #666666;
+	padding-top: 80px;
+	padding-bottom: 80px;
+	background-color: #ffffff;
 }
 
-.kvas-reference .section-title {
-	padding-left: 40px;
+.kvas-reference .ref-title {
+margin: 0;
+margin-bottom: 10px;
+font-weight: bold;
+font-size: 40px;
+line-height: 60px;
+color: #000000;
+
 }
 
-.kvas-reference img {
-	position: absolute;
-	top: 20px;
-	right: 0;
-	border-radius: 5px;
-}
-
-.kvas-reference dl {
-	width: 1020px;
-	
-}
-
-.kvas-reference dt {
+.reference-list {
 	margin: 0;
-}
-
-.kvas-reference dd {
-	position: relative;
-	vertical-align: middle;
-	padding-right: 500px;
-	text-transform: none;
-	font-weight: normal;
-	line-height: 26px;
-}
-
-.theory-container:first-child {
-	margin-bottom: 70px;
+	padding: 0;
+	list-style: none;
 }
 
 .reference-title {
-	position: relative;
-	color: #000000;
-	padding-left: 40px;
+margin-top: 60px;
+margin-bottom: 20px;
+
+font-size: 20px;
+font-weight: bold;
+color: #000000;
 }
 
+
 .reference-source {
-	position: absolute;
-	top: 0;
-	right: 0;
-	font-size: 12px;
-	line-height: 10px;
-	font-style: italic;
-	text-transform: none;
+	float: right;
+	width: 196px;
+	font-size: 16px;
 	font-weight: normal;
-	color: #666666;
-	
+	color: #000000; 
+	text-transform: none;
 }
 
 .reference-source a {
@@ -402,6 +385,24 @@ background-color: #ffffff;
 .reference-source a:active {
 	color: rgba(141, 116, 90, 0.3);
 }
+
+.kvas-history {
+	margin-left: 0;
+	text-transform: none;
+}
+
+.kvas-history img {
+	float: right;
+	width: 200px;
+	margin-top: 10px;
+}
+
+.kvas-history p {
+	float: left;
+	width: 490px;
+	margin: 0;
+}
+
 /* history block end */
 
 /* reviews start */

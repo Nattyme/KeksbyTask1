@@ -128,7 +128,8 @@ body {
 }
 
 .btn-brown {
-	background: #000000;
+	color: #ffffff;
+	background: #834700;
 }
 
 .order-info .btn-brown {
@@ -138,10 +139,16 @@ body {
 .btn-brown:hover {
 	color: #ffffff;
 	background: #000000;
+	border: 1px solid #834700;
 }
 
 .btn-brown:active {
 	color: rgba(255,255,255, 0.3);
+}
+
+.btn-read-more {
+	border: 1px solid #a4a097;
+	color: #bdb7ab;
 }
 
 .header-promo {
@@ -155,44 +162,95 @@ body {
 
 /* new product */
 .new-products {
-	margin-top: 80px;
+padding-top: 80px;
+padding-bottom: 110px;
+background-color: #ffffff;
 }
+
 
 .catalog-item {
 	float: left;
 	position: relative;
-	margin-top: 84px;
-	padding-top: 10px;
-	width: 398px;
-	height: 750px;
+	width: 334px;
+	padding-right: 30px;
+	padding-left: 34px;
 	border-left: 1px solid #e5e5e5;
-}
-
-
-.catalog-item:last-child {
 	border-right: 1px solid #e5e5e5;
 }
 
+.catalog-item:nth-child(2n) {
+	border-left: none;
+}
+
+.new-products .section-title {
+	position: relative;
+	margin: 0;
+	font-size: 40px;
+	line-height: 60px;
+	color: #000000;
+	text-transform: uppercase;
+}
+
 .catalog-item img {
-	width: 318px;
-	height: 455px;
+	width: 319px;
+	height: 459px;
+	margin-top: 30px;
+	margin-left: 10px;
+}
+
+.new-items-info {
+	position: absolute;
+	top: 85px;
+	right: 0;
+	width: 150px;
+	padding-right: 25px;
 }
 
 .new-product-value {
-	position: absolute;
-	top: 85px;
-	left: 222px;
-	width: 147px;
-	height: 82px;
+	width: 150px;
+	margin-bottom: 10px;
+	font-weight: bold;
+	color: #000000;
 	border-collapse: collapse;
 }
 
-.new-items td {
+.new-product-value  td {
 	padding: 5px 10px;
-	text-align: left;
+	border: 1px solid #e5e5e5;
+
+}
+
+.new-product-info {
+	margin: 0;
+	font-size: 14px;
+	line-height: 24px;
+	text-transform: none;
+}
+
+.new-product-description {
+	width: 330px;
+	margin-top: 0;
+	margin-bottom: 60px;
+	text-transform: none;
+}
+
+.new-product-controls {
+	font-size: 0;
+}
+
+.new-product-controls a {
+	font-size: 16px;
+}
+
+.new-product-controls .btn-ghost {
+	margin-right: 7px;
+}
+
+.new-product-price {
+	display: inline-block;
+	margin-left: 25px;
+	font-size: 16px;
 	vertical-align: middle;
-	text-transform: uppercase;
-	border: 1px solid #bbbbbb;
 	color: #000000;
 }
 
@@ -203,7 +261,7 @@ body {
 	padding-top: 50px;
 	padding-bottom: 55px;
 	text-align: left;
-	background-color: #eaeaea;
+	background-color: #ffcb78;
 }
 .features ul {
 	padding: 0;
@@ -336,7 +394,7 @@ body {
 .reviews {
 	padding-top: 70px;
 	padding-bottom: 90px;
-	background-color: #eaeaea;
+	background-color: #ede5d8;
 }
 
 .reviews-list {
@@ -441,7 +499,7 @@ border-bottom: 1px solid #bbbbbb;
 .order-info {
 	padding-top: 70px;
 	padding-bottom: 90px;
-	background-color: #eaeaea;
+	background-color: #ffcb78;
 	color: #666666;
 }
 

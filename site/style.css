@@ -113,25 +113,44 @@ body {
 	vertical-align: middle;
 	text-transform: uppercase;
 	text-decoration: none;
-	border: 1px solid transparent;
+	border: 2px solid #a5a097;
+	color: #bcb6ab;
+}
+
+.btn:hover {
+	color: #ffffff;
+	background-color: #a5a097;
+	border-color: #a5a097;
+}
+
+.btn:active {
+	color: rgba(255, 255, 255, 0.3);
+	background-color: #8f8a81;
+	border-color: #8f8a81;
 }
 
 .btn-ghost {
 	color: #834700;
 	background: #ffffff;
+	border-color: #834700;
 }
 
 .btn-ghost:hover {
 	color: #6a3900;
+	border-color: #6a3900;
+	background-color: #ffffff;
 }
 
 .btn-ghost:active {
-	color: #d2c3b2;
+	color: rgba("92, 50, 0,  0.3");
+	border-color: #cec1b2;
+	background-color: #ffffff;
 }
 
 .btn-brown {
 	color: #ffffff;
-	background: #834700;
+	background-color: #834700;
+	border: 2px solid #834700;
 }
 
 .order-info .btn-brown {
@@ -139,13 +158,14 @@ body {
 }
 
 .btn-brown:hover {
-	color: #ffffff;
-	background: #000000;
-	border: 1px solid #834700;
+	background-color: #6a3900;
+	border-color: #6a3900;
 }
 
 .btn-brown:active {
 	color: rgba(255,255,255, 0.3);
+	background-color: #5c3200;
+	border-color: #5c3200;
 }
 
 .btn-read-more {

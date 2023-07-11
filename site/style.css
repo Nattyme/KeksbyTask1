@@ -521,6 +521,7 @@ padding: 17px 0;
 
 /* order-form start */
 .order-info {
+	margin-top: 10px;
 	padding-top: 70px;
 	padding-bottom: 90px;
 	background-color: #ffcb78;
@@ -528,12 +529,14 @@ padding: 17px 0;
 }
 
 .order-form-group {
-	padding: 10px 0;
+	margin-bottom: 25px;;
 }
 
 .order-tip {
+	width: 650px;
+	margin: 0;
+	margin-bottom: 60px;
 	text-transform: none;
-	font-weight: normal;
 }
 
 .order-form {
@@ -541,33 +544,75 @@ padding: 17px 0;
 }
 
 .order-form-group label {
-	font-size: 12px;
-	text-transform: uppercase;
 	font-weight: bold;
+	font-size: 16px;
+	line-height: 20px;
+	vertical-align: top;
 	color: #000000;
 	}
 	
 .order-form-group input[type="text"],
 .order-form-group select,
 .order-form-group textarea {
+	box-sizing: border-box;
+	width: 100%;
+	padding: 15px 10px;
+	padding-left: 20px;
 	font: inherit;
-	color: inherit;
-	border: 1px solid transparent;
-	background-color: #ededed;
+	font-weight: bold;
+	font-size: 16px;
+	line-height: 20px;
+	color: #b69054;
+	text-transform: uppercase;
+	border: none;
+	background-color: rgba(0, 0, 0, 0.1);
 	}
+	
+.order-form-group textarea {
+	height: 120px;
+	resize: none;
+}
 	
 .order-form-group input[type="text"]:hover,
 .order-form-group select:hover,
 .order-form-group textarea:hover {
-	border-color: #bebebe;
+	background: rgba(0, 0, 0, 0.15);
 	}
 
 .order-form-group input[type="text"]:focus,
 .order-form-group select:focus,
 .order-form-group textarea:focus {
-	border: none;
+	color: #000000;
 	background-color: #ffffff;
 	}
+	
+.order-form-group:nth-child(2) {
+	float: left;
+	width: 290px;
+}
+
+.order-form-group:nth-child(3) {
+	float: right;
+	width: 290px;
+}
+
+.checkbox-area {
+	margin-bottom: 40px;
+}
+
+.checkbox-area input {
+	margin: 0;
+	margin-right: 10px;
+}
+
+.checkbox-area label {
+	margin-right: 15px;
+	font-weight: bold;
+	font-size: 16px;
+	line-height: 20px;
+	vertical-align: middle;
+	color: #000000;
+}
 
 
 

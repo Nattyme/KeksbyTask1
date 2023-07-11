@@ -33,7 +33,7 @@ body {
 .page-header {
 	height: 490px;
 	padding-top: 60px;
-	background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("img/back-image.png") no-repeat bottom;
+	background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("img/back-image.png") no-repeat bottom;
 	background-size:  cover;
 	background-color: #7a5118;
 }
@@ -84,7 +84,7 @@ body {
 .main-nav a {
 	display: inline-block;
 	padding-top: 14px;
-	padding-bottom: 13px;
+	padding-bottom: 12px;
 	font-weight: bold;
 	vertical-align: middle;
 	color: #ffffff;
@@ -624,39 +624,27 @@ padding: 17px 0;
 
 /* footer*/
 .page-footer {
-	padding-top: 45px;
-	padding-bottom: 50px;
-	font-family: Arial, sans-serif;
+	padding-top: 60px;
+	padding-bottom: 70px;
 	background-color: #000000;
-	color: #808080;
 }
 
 .footer-logo {
 	float: left;
-	width: 205px;
-	height: 55px;
+	width: 140px;
+	height: 76px;
+	margin-left: 37px;
 }
 
-.page-footer .footer-menu li{
-	font-weight: bold;
-	list-style: none;
-}
-
-.footer-top{
-	margin-bottom: 45px;
-	
+.footer-nav {
+	margin-top: 7px;
+	margin-right: 107px;
 }
 
 .footer-bottom {
-	padding-bottom: 50px;
-	
+	margin-top: 47px;
 }
 
-.footer-menu li {
-	float: left;
-	margin-left: 45px;
-	width: 150px;
-}
 
 .footer-menu li:nth-child(2) {
 	margin-left: 15px;
@@ -678,75 +666,106 @@ padding: 17px 0;
 
 .footer-social {
 	float: left;
-	width: 250px;
-	font-size: 0;
+	width: 216px;
 }
 .social-btn {
-	width: 60px;
-	height: 60px;
-	display: inline-block;
-	vertical-align: middle;
-	color: #ffffff;
-	border: 1px solid rgba(61,55,48,0.1);
-	background-image: url("img/spritesheet.png");
+	position: relative;
+	float: left;
+	width: 68px;
+	height: 66px;
+	font-size: 0;
+	background-color: #1b1b1b;
 	background-repeat: no-repeat;
-	background-position: center;
-	background-color: #71737a;
+	background-position: center center;
+	border: 1px solid rgba(255,203,120,0.1);
+	background-image: url("img/spritesheet.png");
 }
 
 .social-btn:hover {
-	border: 1px solid #9c8e79;
+	z-index: 1;
+	border-color: rgba(255, 203, 120, 0.3);
 }
 
 .socail-btn:active {
-	background-color: rgba(44,45,47, 0.5);
+	opacity: 0.5;
 }
 
 .btn-inst {
-	background-position: 5px 0;
+	background-position: 5px 5px;
 }
 
 .btn-fb {
-	background-position: 5px -105px;
+	background-position: 10px -100px;
 }
 
 .btn-vk {
-background-position: 0px -50px;	
+background-position: 0px -45px;	
 }
 
-.footer-alert {
+.footer-tip {
 	float: left;
-	width: 250px;
+	width: 200px;
+	margin-top: 12px;
+	margin-left: 91px;
+	font-size: 14px;
+	line-height: 20px;
+	color: #989898;
 	text-transform: none;
-	font-weight: normal;
+}
+
+.footer-tip p {
+	margin: 0;
 }
 
 .footer-copyright {
-	position: relative;
-	float: right;
+	float: left;
 	width: 300px;
 	text-transform: none;
-}
-
-.footer-copyright .footer-logo2{
 	font-weight: normal;
-}
-
-
-.btn-html {
-	background-position: -4px -165px;
+	margin-left: 200px;
 }
 
 .footer-copyright a {
-text-decoration: none;
-color: #808080;
+	color: #989898;
+	text-decoration: none;
 }
 
-.footer-copyright a:hover {
-text-decoration: underline;
-color: #ffffff;
+.footer-logo2 {
+	position: relative;
+	display: inline-block;
+	width: 70px;
+	height: 66px;
+	vertical-align: top;
+	background-color: #1b1b1b;
+	border: 1px solid rgba(255, 203, 120, 0.1);
 }
 
-.footer-copyright a:active {
-color: rgba(255,255,255,0.3);
+.footer-logo2:hover {
+	border-color: rgba(255, 203, 120, 0.3);
+}
+
+.footer-logo2:active {
+	opacity: 0.5;
+}
+
+.logo-academy img{
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	margin: auto;
+}
+
+.footer-copyright span  {
+	display: inline-block;
+	font-size: 14px;
+	line-height; 20px;
+	vertical-align: middle;
+	color: #989898;
+}
+
+.copyright-text {
+	margin-top: 25px;
+	margin-left: 25px;
 }

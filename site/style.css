@@ -1,11 +1,15 @@
 /*header start */
+*, *::after, *::before {
+	box-sizing: border-box;
+}
+
 body {
 	min-width: 1040px;
 	margin: 0;
 	padding: 0;
 	font-size: 16px;
 	font-weight: 400;
-	line-height: 30px;
+	line-height: 1.8;
 	font-family: "Arial", sans-serif;
 	text-transform: uppercase;
 	color: #404040;
@@ -30,7 +34,7 @@ body {
 	clear: both;
 }
 
-.page-header {
+.header {
 	height: 490px;
 	padding-top: 60px;
 	background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("img/back-image.png") no-repeat bottom;
@@ -38,8 +42,8 @@ body {
 	background-color: #7a5118;
 }
 
-.page-header,
-.page-footer {
+.header,
+.footer {
 	color: #ffffff;
 	background-color: #000000;
 }
@@ -59,7 +63,7 @@ body {
 	height: 76px;
 }
 
-.main-nav {
+.header__nav--list {
 	float: right;
 	width: 600px;
 	margin: 0;
@@ -70,18 +74,18 @@ body {
 	list-style: none;
 }
 
-.main-nav li {
+.header__nav--item {
 	position: relative;
 	display: inline-block;
 	margin-right: 50px;
 	vertical-align: middle;
 }
 
-.main-nav li:last-child {
+.header__nav--item:last-child {
 	margin-right: 0;
 }
 
-.main-nav a {
+.header__nav--item a {
 	display: inline-block;
 	padding-top: 14px;
 	padding-bottom: 12px;
@@ -93,12 +97,12 @@ body {
 	border-bottom: 1px solid transparent;
 }
 
-.main-nav a:hover {
+.header__nav--item a:hover {
 	color: #f1bb6a;
 	border-bottom: 1px solid #ffffff;
 }
 
-.main-nav a:active {
+.header__nav--item a:active {
 	color: #c88a31;
 	padding-bottom: 25px;
 	border-bottom: 1px solid #ffffff;
@@ -173,7 +177,7 @@ body {
 	color: #bdb7ab;
 }
 
-.header-promo {
+.header__promo {
 	font-weight: bold;
 	font-size: 70px;
 	line-height: 70px;
@@ -184,7 +188,7 @@ body {
 /* header end */
 
 /* new product */
-.new-products {
+.new__products {
 padding-top: 80px;
 padding-bottom: 110px;
 background-color: #ffffff;
@@ -629,16 +633,12 @@ padding: 17px 0;
 }
 
 .checkbox-area label {
-	margin-right: 15px;
 	font-weight: bold;
 	font-size: 16px;
 	line-height: 20px;
 	vertical-align: middle;
 	color: #000000;
 }
-
-
-
 
 /* order-form end */
 
@@ -780,7 +780,7 @@ background-position: 0px -45px;
 .footer-copyright span  {
 	display: inline-block;
 	font-size: 14px;
-	line-height; 20px;
+	line-height: 20px;
 	vertical-align: middle;
 	color: #989898;
 }
